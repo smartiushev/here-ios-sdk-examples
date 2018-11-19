@@ -14,23 +14,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		12DC7B452125BD71000B2E6D /* RoutingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RoutingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		12DC7B452125BD71000B2E6D /* RouteTta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RouteTta.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		12DC7B482125BD71000B2E6D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		12DC7B4A2125BD72000B2E6D /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		12DC7B4D2125BD72000B2E6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		12DC7B4F2125BD72000B2E6D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		12DC7B542125BD72000B2E6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFrameworksBuildPhase section */
-		12DC7B422125BD71000B2E6D /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		12DC7B3C2125BD71000B2E6D = {
@@ -44,7 +34,7 @@
 		12DC7B462125BD71000B2E6D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				12DC7B452125BD71000B2E6D /* RoutingApp.app */,
+				12DC7B452125BD71000B2E6D /* RouteTta.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -64,21 +54,20 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		12DC7B442125BD71000B2E6D /* RoutingApp */ = {
+		12DC7B442125BD71000B2E6D /* RouteTta */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 12DC7B572125BD72000B2E6D /* Build configuration list for PBXNativeTarget "RoutingApp" */;
+			buildConfigurationList = 12DC7B572125BD72000B2E6D /* Build configuration list for PBXNativeTarget "RouteTta" */;
 			buildPhases = (
 				12DC7B412125BD71000B2E6D /* Sources */,
-				12DC7B422125BD71000B2E6D /* Frameworks */,
 				12DC7B432125BD71000B2E6D /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = RoutingApp;
+			name = RouteTta;
 			productName = RoutingApp;
-			productReference = 12DC7B452125BD71000B2E6D /* RoutingApp.app */;
+			productReference = 12DC7B452125BD71000B2E6D /* RouteTta.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -109,7 +98,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				12DC7B442125BD71000B2E6D /* RoutingApp */,
+				12DC7B442125BD71000B2E6D /* RouteTta */,
 			);
 		};
 /* End PBXProject section */
@@ -274,7 +263,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = nma.iOSHereSDKSamples.Routing;
+				PRODUCT_BUNDLE_IDENTIFIER = nma.iOSHereSDKSamples.RouteTta;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -291,7 +280,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = nma.iOSHereSDKSamples.Routing;
+				PRODUCT_BUNDLE_IDENTIFIER = nma.iOSHereSDKSamples.RouteTta;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -310,7 +299,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		12DC7B572125BD72000B2E6D /* Build configuration list for PBXNativeTarget "RoutingApp" */ = {
+		12DC7B572125BD72000B2E6D /* Build configuration list for PBXNativeTarget "RouteTta" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				12DC7B582125BD72000B2E6D /* Debug */,
